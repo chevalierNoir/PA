@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">InterSaclay</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_logout">Log Out</string>
+    <string name="action_edit_profile">Edit Profile</string>
+    <string name="title_activity_register">User Registration</string>
+    <string name="title_activity_account">Account Information</string>
+    <string name="title_account_add_order">Post Order</string>
+    <string name="title_account_show_order">My Orders</string>
+    <string name="title_account_edit_info">Personal Information</string>
+    <string name="title_about_app">About InterSaclay</string>
+    <string name="title_system_info">System Message</string>
+    <string name="title_message">Message</string>
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_account_add_order">AccountAddOrderActivity</string>
+    <string name="title_activity_account_shor_order">AccountShorOrderActivity</string>
+    <string name="title_activity_account_edit_info">AccountEditInfoActivity</string>
+</resources>
+

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bowenshi.intersaclay.AccountAddOrderActivity"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@android:color/white"
+        app:titleTextAppearance="@style/Toolbar.TitleText"
+        app:title="@string/title_account_add_order"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_short_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:weightSum="16"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="14">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:orientation="vertical"
+                android:weightSum="10">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical"
+
+                    android:id="@+id/add_order_layout"
+                    android:layout_weight="9">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:weightSum="6">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:text="I Can:"
+                            android:textSize="20sp"
+                            android:gravity="center_vertical"/>
+                        <Spinner
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4">
+
+                        </Spinner>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:weightSum="6"
+                        android:layout_marginTop="15dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:text="You Can:"
+                            android:textSize="20sp"
+                            android:gravity="center_vertical"/>
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:background="@drawable/myedittext"
+                            android:hint="Eg.Dance"
+                            android:textSize="20sp"
+                            android:gravity="center_vertical|center_horizontal"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:weightSum="6"
+                        android:layout_marginTop="15dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:text="Availability:"
+                            android:textSize="20sp"
+                            android:gravity="center_vertical"/>
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:background="@drawable/myedittext"
+                            android:hint="Eg.Monday Morning"
+                            android:textSize="20sp"
+                            android:gravity="center_vertical|center_horizontal"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:weightSum="6"
+                        android:layout_marginTop="20dp">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"
+                            android:text="Comments:"
+                            android:textSize="20sp"
+                            android:gravity="center_vertical"/>
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:background="@drawable/myedittext"
+                            android:hint="Eg.Girls First"
+                            android:textSize="20sp"
+                            android:gravity="center_vertical|center_horizontal"
+                            />
+                    </LinearLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp">
+                        <Button
+                            android:layout_width="@dimen/short_button_width"
+                            android:layout_height="match_parent"
+                            android:id="@+id/account_add_order_cancel"
+                            android:text="Cancel"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="15dp"
+                            android:textSize="@dimen/text_box_text_size"
+                            android:textColor="#ffffff"
+                            android:background="@drawable/mybutton1"
+                            android:gravity="center" />
+
+
+                        <Button
+                            android:layout_width="@dimen/short_button_width"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/mybutton1"
+                            android:text="Post"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="15dp"
+                            android:id="@+id/account_add_order_ok"
+                            android:textSize="@dimen/text_box_text_size"
+                            android:textColor="#ffffff"
+                            android:gravity="center"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
