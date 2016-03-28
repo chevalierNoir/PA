@@ -1,0 +1,78 @@
+{
+  "name": "category",
+  "values": [
+    { "name": "Choisissez", "values": [] },
+    { "name": "Cours Avancées (Bac+3/Bac+8)", "values": [
+      { "name": "Choisissez", "values": [] },
+      { "name": "Art et Humanité", "values": [] },
+      { "name": "Informatique", "values": [] },
+      { "name": "Science des données", "values": [] },
+      { "name": "Sciences de la vie", "values": [] },
+      { "name": "Mathématique et Logique", "values": [] },
+      { "name": "Sciences Physique", "values": [] },
+      { "name": "Sciences Sociales", "values": [] },
+      { "name": "Business", "values": [] },
+      { "name": "Autres", "values": [] }
+    ]},
+    { "name": "Cours Intermédiaire(Bac/Bac+2,prépa)", "values": [
+      { "name": "Choisissez", "values": [] },
+      { "name": "Science", "values": [] },
+      { "name": "Commerce", "values": [] },
+      { "name": "Humanité", "values": [] },
+      { "name": "Culture", "values": [] },
+      { "name": "Histoire", "values": [] },
+      { "name": "Philosophie", "values": [] },
+      { "name": "Autres", "values": [] }
+    ]},
+    { "name": "Cours Base(Lycée)", "values": [
+      { "name": "Choisissez", "values": [] },
+      { "name": "Science", "values": [] },
+      { "name": "Commerce", "values": [] },
+      { "name": "Humanité", "values": [] },
+      { "name": "Culture", "values": [] },
+      { "name": "Histoire", "values": [] },
+      { "name": "Philosophie", "values": [] },
+      { "name": "Autres", "values": [] }
+    ]},
+    { "name": "Musique & Danse", "values": [
+      { "name": "Choisissez", "values": [] },
+      { "name": "guitare", "values": [] },
+      { "name": "ukelélé", "values": [] },
+      { "name": "piano", "values": [] },
+      { "name": "violon", "values": [] },
+      { "name": "Basse", "values": [] },
+      { "name": "Flûte", "values": [] },
+      { "name": "Clavier", "values": [] },
+      { "name": "Autres", "values": [] }
+    ]},
+    { "name": "Langue", "values": [
+      { "name": "Choisissez", "values": [] },
+      { "name": "Anglais", "values": [] },
+      { "name": "Chinoise", "values": [] },
+      { "name": "Japonais", "values": [] },
+      { "name": "Russe", "values": [] },
+      { "name": "Arabe", "values": [] },
+      { "name": "Espagnol", "values": [] },
+      { "name": "Francais", "values": [] },
+      { "name": "Allemand", "values": [] },
+      { "name": "Coréen", "values": [] },
+      { "name": "Italien", "values": [] },
+      { "name": "Cantonais", "values": [] },
+      { "name": "Autres", "values": [] }
+    ]},
+    { "name": "Sports", "values": [
+      { "name": "Choisissez", "values": [] },
+      { "name": "tennis", "values": [] },
+      { "name": "football", "values": [] },
+      { "name": "basketball", "values": [] },
+      { "name": "yoga", "values": [] },
+      { "name": "natation", "values": [] },
+      { "name": "badminton", "values": [] },
+      { "name": "equitation", "values": [] },
+      { "name": "escalade", "values": [] },
+      { "name": "tennis de table", "values": [] },
+      { "name": "Autres", "values": [] }
+    ]},
+    { "name": "Autres", "values": [] }
+  ]
+}

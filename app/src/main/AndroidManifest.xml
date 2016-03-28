@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bowenshi.intersaclay">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AccountActivity"
+            android:label="@string/title_activity_account"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AccountAddOrderActivity"
+            android:label="@string/title_activity_account_add_order"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AccountShowOrderActivity"
+            android:label="@string/title_activity_account_shor_order"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AccountEditInfoActivity"
+            android:label="@string/title_activity_account_edit_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutAppActivity"
+            android:label="AboutAppActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SystemInfoActivity"
+            android:label="SystemInfoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MessageActivity"
+            android:label="MessageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChatActivity"
+            android:label="ChatActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SystemMessageActivity"
+            android:label="SystemMessageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SystemMessageDetailActivity"
+            android:label="SystemMessageDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AboutAppHelpActivity"
+            android:label="AboutAppHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".AboutAppFeedbackActivity"
+            android:label="AboutAppFeedbackActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.example.bowenshi.intersaclay.PostDetailActivity"
+            android:label="@string/title_activity_post_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.bowenshi.intersaclay.SearchPostActivity"
+            android:label="@string/title_activity_search_post"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.bowenshi.intersaclay.SearchResultActivity"
+            android:label="@string/title_activity_search_result"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

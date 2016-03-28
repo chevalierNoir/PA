@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.bowenshi.intersaclay.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/pic1"
+                    android:id="@+id/pic1"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UserName:"
+                    android:textColor="#000000"
+                    android:id="@+id/usernameView"
+                    android:textSize="20sp"
+                    android:layout_alignTop="@+id/pic1"
+                    android:layout_marginTop="200dp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/text_view_height"
+                    android:id="@+id/usernameEdit"
+                    android:background="@drawable/textbox_border"
+                    android:gravity="right|center_vertical"
+                    android:textSize="@dimen/text_box_text_size"
+                    android:layout_alignLeft="@+id/usernameView"
+                    android:layout_marginLeft="120dp"
+                    android:layout_alignTop="@+id/pic1"
+                    android:layout_marginTop="200dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PassWord:"
+                    android:textColor="#000000"
+                    android:id="@+id/pswView"
+                    android:textSize="@dimen/text_box_text_size"
+                    android:layout_below="@+id/usernameEdit"
+                    android:layout_marginTop="30sp"
+                    android:layout_alignParentLeft="true"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/text_view_height"
+                    android:background="@drawable/textbox_border"
+                    android:id="@+id/pswEdit"
+                    android:password="true"
+                    android:gravity="right|center_vertical"
+                    android:textSize="@dimen/text_box_text_size"
+                    android:layout_below="@+id/usernameEdit"
+                    android:layout_marginTop="30dp"
+                    android:layout_alignLeft="@+id/pswView"
+                    android:layout_marginLeft="120dp"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/long_button_height"
+                    android:text="Log In"
+                    android:background="@drawable/mybuttongreen"
+                    android:layout_alignTop="@+id/pswEdit"
+                    android:layout_marginTop="100dp"
+                    android:textSize="@dimen/text_box_text_size"
+                    android:id="@+id/loginButton" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
+
+<!--<Button-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="Search"-->
+<!--android:textSize="15sp"-->
+<!--android:id="@+id/search"-->
+<!--android:layout_alignParentBottom="true"-->
+<!--android:layout_marginBottom="50dp"-->
+<!--android:layout_alignParentLeft="true"/>-->
+
+<!--<Button-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:text="Register"-->
+<!--android:textSize="15sp"-->
+<!--android:id="@+id/register"-->
+<!--android:onClick="register"-->
+<!--android:layout_alignParentBottom="true"-->
+<!--android:layout_marginBottom="50dp"-->
+<!--android:layout_alignParentRight="true" />-->

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/values-hdpi-v4/values-hdpi-v4.xml",
+        "outputFile": "/home/bowenshi/3a/ENSTA/PA/github/PA/app/build/intermediates/res/merged/debug/values-hdpi-v4/values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-hdpi/values-hdpi.xml",
+                    "file": "/home/bowenshi/3a/ENSTA/PA/github/PA/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-hdpi/values-hdpi.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

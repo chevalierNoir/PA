@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">InterSaclay</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_logout">Log Out</string>
+    <string name="action_edit_profile">Edit Profile</string>
+    <string name="title_activity_register">User Registration</string>
+    <string name="title_activity_account">Account Information</string>
+    <string name="title_account_add_order">Post Order</string>
+    <string name="title_account_show_order">My Orders</string>
+    <string name="title_account_edit_info">Personal Information</string>
+    <string name="title_about_app">About InterSaclay</string>
+    <string name="title_system_info">System Message</string>
+    <string name="title_message">Message</string>
+    <string name="title_chat">My Chat</string>
+    <string name="title_system_message">System Message</string>
+    <string name="title_about_app_help">Help</string>
+    <string name="title_about_app_feedback">Feedback</string>
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_account_add_order">AccountAddOrderActivity</string>
+    <string name="title_activity_account_shor_order">AccountShorOrderActivity</string>
+    <string name="title_activity_account_edit_info">AccountEditInfoActivity</string>
+    <string name="title_activity_post_detail">Post Detail</string>
+    <string name="title_activity_search_post">Search Post</string>
+    <string name="title_activity_search_result">Search Results</string>
+
+
+    <string name="question_about_app1">Question: Can I change the registered phone number</string>
+    <string name="answer_about_app1">Answer:Of course. You can change your telephone number in your personal information page
+    </string>
+    <string name="question_about_app2">Question: Can any one else see my submitted personal information</string>
+    <string name="answer_about_app2">Answer: Your information will be used only for purpose of checking. No one but yourself has
+    has access to your personal information. Please do not worry about the security</string>
+
+    <!--<string name="base_url">10.0.2.2:8080</string>-->
+     <string name="base_url">pa-exchange.appspot.com</string>
+</resources>
+

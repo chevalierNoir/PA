@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/menu/menu_account.xml",
-        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/menu/menu_account.xml"
+        "merged": "/home/bowenshi/3a/ENSTA/PA/github/PA/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/github/PA/app/src/main/res/menu/menu_main.xml"
     },
     {
-        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
-        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/menu/menu_main.xml"
+        "merged": "/home/bowenshi/3a/ENSTA/PA/github/PA/app/build/intermediates/res/merged/debug/menu/menu_account.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/github/PA/app/src/main/res/menu/menu_account.xml"
     }
 ]
