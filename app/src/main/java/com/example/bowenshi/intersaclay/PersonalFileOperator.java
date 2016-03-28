@@ -94,6 +94,12 @@ public class PersonalFileOperator {
         if(!file.exists()){
             return item;
         }
+//        try{
+//            is=new FileInputStream(file);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//            return item;
+//        }
         BufferedReader bufferedReader;
 //        InputStreamReader streamReader=new InputStreamReader(is);
         try{

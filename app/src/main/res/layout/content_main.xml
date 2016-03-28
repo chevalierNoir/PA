@@ -42,7 +42,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/text_view_height"
                     android:id="@+id/usernameEdit"
-                    android:background="@drawable/myedittext"
+                    android:background="@drawable/textbox_border"
                     android:gravity="right|center_vertical"
                     android:textSize="@dimen/text_box_text_size"
                     android:layout_alignLeft="@+id/usernameView"
@@ -62,7 +62,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/text_view_height"
-                    android:background="@drawable/myedittext"
+                    android:background="@drawable/textbox_border"
                     android:id="@+id/pswEdit"
                     android:password="true"
                     android:gravity="right|center_vertical"
@@ -80,8 +80,7 @@
                     android:layout_alignTop="@+id/pswEdit"
                     android:layout_marginTop="100dp"
                     android:textSize="@dimen/text_box_text_size"
-                    android:id="@+id/button"
-                    android:onClick="login" />
+                    android:id="@+id/loginButton" />
             </RelativeLayout>
 
         </LinearLayout>

@@ -45,8 +45,7 @@
                 android:layout_height="100dp"
                 android:src="@drawable/user"
                 android:id="@+id/userImage"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
                 android:scaleType="centerCrop"
                 />
             <LinearLayout
@@ -80,7 +79,7 @@
                     android:layout_height="30dp"
                     android:id="@+id/account_system_message"
                     android:background="@null"
-                    android:src="@drawable/system_message"
+                    android:src="@drawable/broadcast"
                     android:scaleType="fitCenter"/>
                 <TextView
                     android:layout_width="30dp"
@@ -92,25 +91,25 @@
             </LinearLayout>
 
             <TextView
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_alignRight="@+id/userImage"
+                android:layout_alignTop="@+id/userImage"
+                android:layout_marginTop="160dp"
                 android:id="@+id/account_textview_name"
-                android:layout_marginRight="180dp"
-                android:text="User Name:"
+                android:text="User Name: "
                 android:textSize="20sp"
                 android:textColor="#000000"
-                />
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
             <TextView
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/account_textview_school"
                 android:layout_alignTop="@+id/account_textview_name"
-                android:layout_marginTop="80dp"
-                android:layout_alignRight="@+id/userImage"
-                android:layout_marginRight="180dp"
-                android:text="School:"
+                android:layout_marginTop="50dp"
+                android:layout_alignLeft="@+id/account_textview_name"
+                android:text="School: "
                 android:textColor="#000000"
                 android:textSize="20sp"
                 />
@@ -118,11 +117,9 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/account_textview_deg"
-                android:layout_alignTop="@+id/account_textview_name"
-                android:layout_marginTop="160dp"
-                android:layout_alignRight="@+id/userImage"
-                android:layout_marginRight="180dp"
-                android:text="Degree:"
+                android:layout_alignTop="@+id/account_textview_school"
+                android:layout_marginTop="50dp"
+                android:text="Degree: Master"
                 android:textColor="#000000"
                 android:textSize="20sp"
                 />
@@ -130,26 +127,26 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/account_textview_skill"
-                android:layout_alignTop="@+id/account_textview_name"
-                android:layout_marginTop="240dp"
-                android:layout_alignRight="@+id/userImage"
-                android:layout_marginRight="180dp"
-                android:text="Skills:"
+                android:layout_alignTop="@+id/account_textview_deg"
+                android:layout_marginTop="50dp"
+                android:layout_alignLeft="@+id/account_textview_school"
+                android:text="Skills: "
                 android:textColor="#000000"
                 android:textSize="20sp"
                 />
+
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/account_textview_avail"
-                android:layout_alignTop="@+id/account_textview_name"
-                android:layout_marginTop="320dp"
-                android:layout_alignRight="@+id/userImage"
-                android:layout_marginRight="180dp"
-                android:text="Self Description:"
+                android:layout_alignTop="@+id/account_textview_skill"
+                android:layout_marginTop="50dp"
+                android:layout_alignLeft="@+id/account_textview_skill"
+                android:text="Self Description: "
                 android:textColor="#000000"
                 android:textSize="20sp"
                 />
+
 
 
         </RelativeLayout>

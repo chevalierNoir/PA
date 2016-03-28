@@ -38,7 +38,7 @@
                     android:layout_height="match_parent"
                     android:layout_alignParentRight="true"
                     android:layout_marginLeft="10dp"
-                    android:background="@drawable/myedittext"
+                    android:background="@drawable/textbox_border"
                     android:gravity="center"
                     android:id="@+id/pseudoNameEdit"/>
             </RelativeLayout>
@@ -63,7 +63,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_marginLeft="10dp"
                     android:id="@+id/nameEdit"
-                    android:background="@drawable/myedittext"
+                    android:background="@drawable/textbox_border"
                     android:gravity="center"/>
             </RelativeLayout>
 
@@ -114,7 +114,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_marginLeft="10dp"
                     android:id="@+id/adrsEdit"
-                    android:background="@drawable/myedittext"
+                    android:background="@drawable/textbox_border"
                     android:gravity="center"/>
             </RelativeLayout>
 
@@ -139,7 +139,7 @@
                     android:layout_marginLeft="10dp"
                     android:id="@+id/emailEdit"
                     android:inputType="textEmailAddress"
-                    android:background="@drawable/myedittext"
+                    android:background="@drawable/textbox_border"
                     android:gravity="center"/>
             </RelativeLayout>
 
@@ -163,7 +163,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_marginLeft="10dp"
                     android:id="@+id/schoolEdit"
-                    android:background="@drawable/myedittext"
+                    android:background="@drawable/textbox_border"
                     android:gravity="center"/>
             </RelativeLayout>
 
@@ -188,7 +188,7 @@
                     android:layout_marginLeft="10dp"
                     android:id="@+id/pswEdit"
                     android:password="true"
-                    android:background="@drawable/myedittext"
+                    android:background="@drawable/textbox_border"
                     android:gravity="center"/>
             </RelativeLayout>
 
@@ -213,7 +213,7 @@
                     android:layout_marginLeft="10dp"
                     android:id="@+id/confirmEdit"
                     android:password="true"
-                    android:background="@drawable/myedittext"
+                    android:background="@drawable/textbox_border"
                     android:gravity="center"/>
             </RelativeLayout>
 
@@ -239,8 +239,7 @@
                     android:layout_marginBottom="62dp"
                     android:layout_marginRight="15dp"
                     android:layout_alignParentRight="true"
-                    android:background="@drawable/mybutton1"
-                    android:onClick="record"/>
+                    android:background="@drawable/mybutton1" />
             </RelativeLayout>
 
 

@@ -50,9 +50,10 @@
                 android:orientation="vertical"
                 android:weightSum="5"
                 android:layout_weight="8"
-                android:layout_marginTop="@dimen/items_margin_top"
+                android:layout_marginTop="@dimen/layout_margin_large"
                 >
                 <LinearLayout
+                    android:id="@+id/about_app_version"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:weightSum="8"
@@ -76,6 +77,7 @@
                         android:background="@null"/>
                 </LinearLayout>
                 <LinearLayout
+                    android:id="@+id/about_app_help"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:weightSum="8"
@@ -99,6 +101,7 @@
                         android:background="@null"/>
                 </LinearLayout>
                 <LinearLayout
+                    android:id="@+id/about_app_feedback"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:weightSum="8"
@@ -111,29 +114,6 @@
                         android:layout_weight="7"
                         android:text="Feedback"
                         android:paddingLeft="@dimen/text_left_margin"
-                        android:textSize="@dimen/text_box_text_size_big"
-                        android:gravity="center_vertical"
-                        android:textColor="@color/black"/>
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:src="@drawable/arrow"
-                        android:background="@null"/>
-                </LinearLayout>
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:weightSum="8"
-                    android:layout_weight="1"
-                    android:orientation="horizontal"
-                    android:background="@drawable/gray_rectangle">
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="7"
-                        android:paddingLeft="@dimen/text_left_margin"
-                        android:text="Invitation"
                         android:textSize="@dimen/text_box_text_size_big"
                         android:gravity="center_vertical"
                         android:textColor="@color/black"/>

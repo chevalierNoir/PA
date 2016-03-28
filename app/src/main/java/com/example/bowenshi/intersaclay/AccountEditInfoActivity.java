@@ -30,7 +30,12 @@ public class AccountEditInfoActivity extends AppCompatActivity {
     EditText emailEdit;
     EditText schoolEdit;
     EditText skillEdit;
+    EditText sdEdit;
     Spinner sexSpinner;
+
+    PISQLiteHelper db;
+
+    PersonalInformation user;
 
 
     @Override
@@ -49,6 +54,10 @@ public class AccountEditInfoActivity extends AppCompatActivity {
         schoolEdit=(EditText) findViewById(R.id.account_edit_school);
         skillEdit=(EditText) findViewById(R.id.account_edit_skills);
         sexSpinner=(Spinner) findViewById(R.id.account_edit_sexSpin);
+        sdEdit=(EditText) findViewById(R.id.account_edit_self_description);
+
+        db=PISQLiteHelper.getInstance(this.getApplicationContext());
+        user=db.readUser(username);
 
         fillForms();
 
@@ -93,6 +102,11 @@ public class AccountEditInfoActivity extends AppCompatActivity {
                 }
                 info+="\n";
                 PersonalFileOperator pfo=new PersonalFileOperator();
+
+                String sd=sdEdit.getText().toString();
+                user.setSelfDescription(sd);
+                db.updateUser(user);
+
                 if(pfo.updateItem(username,info)){
 
                     returnToMe(v);
@@ -119,6 +133,10 @@ public class AccountEditInfoActivity extends AppCompatActivity {
         if(userInfo[8]!=null){
             skillEdit.setText(userInfo[8]);
         }
+
+        //Set sd
+
+        sdEdit.setText(user.getSelfDescription());
 
         //Set sexSpinner
         int spinnerPosition=getSpinnerIndex(sexSpinner, userInfo[2]);

@@ -1,31 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bowenshi.intersaclay" >
+    package="com.example.bowenshi.intersaclay">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-
-    <permission
-        android:name="com.example.gcm.permission.C2D_MESSAGE"
-        android:protectionLevel="signature" />
-
-    <uses-permission android:name="com.example.gcm.permission.C2D_MESSAGE" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:name="android.support.multidex.MultiDexApplication">
+        android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -65,6 +55,37 @@
         <activity
             android:name=".MessageActivity"
             android:label="MessageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChatActivity"
+            android:label="ChatActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SystemMessageActivity"
+            android:label="SystemMessageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SystemMessageDetailActivity"
+            android:label="SystemMessageDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AboutAppHelpActivity"
+            android:label="AboutAppHelpActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".AboutAppFeedbackActivity"
+            android:label="AboutAppFeedbackActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name="com.example.bowenshi.intersaclay.PostDetailActivity"
+            android:label="@string/title_activity_post_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.bowenshi.intersaclay.SearchPostActivity"
+            android:label="@string/title_activity_search_post"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.bowenshi.intersaclay.SearchResultActivity"
+            android:label="@string/title_activity_search_result"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

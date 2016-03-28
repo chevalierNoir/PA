@@ -72,7 +72,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_marginLeft="10dp"
                     android:id="@+id/account_edit_username"
-                    android:background="@drawable/myedittext"
+                    android:background="@drawable/textbox_border"
                     android:textColor="@color/gray"
                     android:textSize="@dimen/text_box_text_size"
                     android:gravity="right|center_vertical"
@@ -105,7 +105,7 @@
                     android:textSize="@dimen/text_box_text_size"
                     android:gravity="right|center_vertical"
                     android:id="@+id/account_edit_adrs"
-                    android:background="@drawable/myedittext"/>
+                    android:background="@drawable/textbox_border"/>
             </RelativeLayout>
 
             <RelativeLayout
@@ -128,7 +128,7 @@
                     android:textSize="@dimen/text_box_text_size"
                     android:gravity="right|center_vertical"
                     android:id="@+id/account_edit_realname"
-                    android:background="@drawable/myedittext"/>
+                    android:background="@drawable/textbox_border"/>
             </RelativeLayout>
 
             <RelativeLayout
@@ -175,7 +175,7 @@
                     android:id="@+id/account_edit_email"
                     android:textSize="@dimen/text_box_text_size"
                     android:gravity="right|center_vertical"
-                    android:background="@drawable/myedittext"/>
+                    android:background="@drawable/textbox_border"/>
             </RelativeLayout>
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -197,7 +197,7 @@
                     android:id="@+id/account_edit_school"
                     android:textSize="@dimen/text_box_text_size"
                     android:gravity="right|center_vertical"
-                    android:background="@drawable/myedittext"/>
+                    android:background="@drawable/textbox_border"/>
             </RelativeLayout>
 
             <RelativeLayout
@@ -220,8 +220,34 @@
                     android:id="@+id/account_edit_skills"
                     android:textSize="@dimen/text_box_text_size"
                     android:gravity="right|center_vertical"
-                    android:background="@drawable/myedittext"/>
+                    android:background="@drawable/textbox_border"/>
             </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/text_view_height_large"
+                android:layout_marginTop="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:text="Self\n Descrip \n tion:"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_box_text_size"
+                    android:lines="3"
+                    android:maxLines="3"
+                    android:gravity="center"/>
+                <EditText
+                    android:layout_width="@dimen/text_box_width"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/account_edit_self_description"
+                    android:textSize="@dimen/text_box_text_size"
+                    android:gravity="right|center_vertical"
+                    android:background="@drawable/textbox_border"/>
+            </RelativeLayout>
+
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/long_button_height"

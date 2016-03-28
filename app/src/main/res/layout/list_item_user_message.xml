@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/message_user_logo"
+        android:layout_width="@dimen/mini_image_logo"
+        android:layout_height="@dimen/mini_image_logo"
+        android:padding="@dimen/small_padding"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/default_user_image"
+        android:background="@null"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mini_image_logo"
+        android:layout_alignRight="@+id/message_user_time"
+        android:layout_marginRight="@dimen/mini_image_logo"
+        android:layout_alignLeft="@+id/message_user_logo"
+        android:layout_marginLeft="@dimen/mini_image_logo"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/message_sender_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:layout_gravity="right"
+            android:gravity="left|center_vertical"
+            android:textSize="@dimen/text_box_text_size"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:maxLength="20"
+            android:ellipsize="end" />
+        <TextView
+            android:id="@+id/message_user_short"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:layout_gravity="right"
+            android:gravity="left|center_vertical"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/message_user_time"
+        android:layout_width="@dimen/mini_image_logo"
+        android:layout_height="@dimen/mini_image_logo"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/small_text_size"
+        android:gravity="center"/>
+</RelativeLayout>
+
+<!--<LinearLayout-->
+<!--android:id="@+id/chat_contentWithBackground"-->
+<!--android:layout_width="wrap_content"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_gravity="right"-->
+<!--android:background="@drawable/in_message_bubble"-->
+<!--android:paddingLeft="10dp"-->
+<!--android:paddingBottom="10dp"-->
+<!--android:orientation="vertical">-->
+
+<!--<TextView-->
+    <!--android:id="@+id/chat_txtMessage"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textColor="@android:color/black"-->
+    <!--android:maxWidth="240dp" />-->
+
+<!--</LinearLayout>-->

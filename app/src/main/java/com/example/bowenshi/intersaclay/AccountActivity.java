@@ -13,6 +13,7 @@ import android.provider.MediaStore;
 import android.support.v4.content.CursorLoader;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,6 +26,18 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.w3c.dom.Text;
+
+import java.net.URI;
+import java.net.URISyntaxException;
+
 public class AccountActivity extends AppCompatActivity {
 
     String username;
@@ -34,8 +47,12 @@ public class AccountActivity extends AppCompatActivity {
     TextView nameTextView;
     TextView schoolTextView;
     TextView skillTextView;
+    TextView selfDesTextview;
     ImageView accountMainUserImage;
 
+    public final static String TAG = AccountActivity.class.getSimpleName();
+
+    PISQLiteHelper db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,16 +65,22 @@ public class AccountActivity extends AppCompatActivity {
         nameTextView=(TextView) findViewById(R.id.account_textview_name);
         schoolTextView=(TextView) findViewById(R.id.account_textview_school);
         skillTextView=(TextView) findViewById(R.id.account_textview_skill);
+        selfDesTextview=(TextView) findViewById(R.id.account_textview_avail);
         accountMainUserImage=(ImageView) findViewById(R.id.userImage);
 
-        fillForm();
+//        db=new PISQLiteHelper(getApplicationContext());
+
+        db= PISQLiteHelper.getInstance(this.getApplicationContext());
+//        fillForm(username);
+
+        fillFormLocal();
 
         ImageButton showOrderButton=(ImageButton) findViewById(R.id.accountOrder);
         showOrderButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(v.getContext(),AccountShowOrderActivity.class);
-                intent.putExtra("Username",username);
+                Intent intent = new Intent(v.getContext(), AccountShowOrderActivity.class);
+                intent.putExtra("Username", username);
                 startActivity(intent);
             }
         });
@@ -89,7 +112,7 @@ public class AccountActivity extends AppCompatActivity {
         systemInfoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(v.getContext(),SystemInfoActivity.class);
+                Intent intent=new Intent(v.getContext(),SystemMessageActivity.class);
                 intent.putExtra("Username", username);
                 startActivity(intent);
             }
@@ -105,10 +128,72 @@ public class AccountActivity extends AppCompatActivity {
             }
         });
 
+        ImageButton searchButton=(ImageButton) findViewById(R.id.accountHome);
+        searchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new  Intent(v.getContext(), SearchPostActivity.class);
+                intent.putExtra("Username", username);
+                startActivity(intent);
+            }
+        });
+
 
     }
 
-    public void fillForm(){
+    public void fillForm(String id) {
+        String base = getResources().getString(R.string.base_url);
+        String query = "id=" + id;
+        URI uri = null;
+        try {
+            uri = new URI("http", base, "/user/info", query, null);
+        } catch (URISyntaxException e) {
+            Log.e(AccountActivity.TAG, e.getMessage());
+        }
+
+        JsonObjectRequest infoRequest = new JsonObjectRequest(Request.Method.GET, uri.toString(),
+                new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        try {
+                            nameTextView.append(response.getString("name"));
+                            schoolTextView.append(response.getString("school"));
+
+                            /*
+                            JSONArray skills = response.optJSONArray("skills");
+                            if (skills != null && skills.length() != 0) {
+                                StringBuilder skillSB = new StringBuilder();
+
+                                for (int i = skills.length() - 1; i >= 0; --i) {
+                                    String skill = skills.getString(i);
+                                    String[] skillChain = skill.split(">");
+                                    String skillName = skillChain[skillChain.length - 1];
+                                    if (!skillName.equals("Autres")) {
+                                        skillSB.append(skillName).append(';');
+                                    }
+                                }
+
+                                skillTextView.append(skillSB.toString());
+                            }*/
+                        } catch (JSONException error) {
+                            Log.e(AccountActivity.TAG, error.getMessage());
+                        }
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                if (error.networkResponse != null) {
+                    if (error.networkResponse.statusCode == 404)
+                        Toast.makeText(getApplicationContext(), "username not found", Toast.LENGTH_SHORT).show();
+                    Log.e(AccountShowOrderActivity.TAG, error.networkResponse.toString());
+                }
+                Log.e(AccountActivity.TAG, error.toString());
+            }
+        });
+        GlobalRequestQueue.getInstance(getApplicationContext()).addToRequestQueue(infoRequest);
+    }
+
+    public void fillFormLocal(){
 
         String usernameNewline=username+"\n";
         nameTextView.append(usernameNewline);
@@ -143,6 +228,13 @@ public class AccountActivity extends AppCompatActivity {
             //Add Skill to textView
             skillTextView.append(personalInfo[8]);
         }
+
+        //Append self description
+
+//        db.onUpgrade(db.getWritableDatabase(),1,2);
+//        db.createUser(new PersonalInformation(username, "First SD"));
+        PersonalInformation user=db.readUser(username);
+        selfDesTextview.append(user.getSelfDescription());
 
     }
 
