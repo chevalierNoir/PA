@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/content_account_edit_info.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/content_account_edit_info.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/list_item_user_message.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/list_item_user_message.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/activity_system_info.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/activity_system_info.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/activity_message.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/activity_message.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/activity_about_app_help.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/activity_about_app_help.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/post_item_layout.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/post_item_layout.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/content_post_detail.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/content_post_detail.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/item_layout.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/item_layout.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/activity_chat.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/activity_chat.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/activity_search_post.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/activity_search_post.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/activity_about_app.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/activity_about_app.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/content_search_result.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/content_search_result.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/activity_post_detail.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/activity_post_detail.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/list_item_chat.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/list_item_chat.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/content_main.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/content_main.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/content_account_add_order.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/content_account_add_order.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/activity_system_message_detail.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/activity_system_message_detail.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/activity_search_result.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/activity_search_result.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/content_register.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/content_register.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/table_rows.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/table_rows.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/activity_system_message.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/activity_system_message.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/content_account_show_order.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/content_account_show_order.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/activity_account.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/activity_account.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/content_account.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/content_account.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/list_item_system_message.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/list_item_system_message.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/activity_about_app_feedback.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/activity_about_app_feedback.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/build/intermediates/res/merged/debug/layout/content_search_post.xml",
+        "source": "/home/bowenshi/3a/ENSTA/PA/InterSaclay_05_03/app/src/main/res/layout/content_search_post.xml"
+    }
+]
